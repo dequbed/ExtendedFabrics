@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
-  
+<Defs>
   <RecipeDef>
     <defName>MakeCloth</defName>
     <label>Make Cloth</label>
@@ -48,10 +47,7 @@
       <li>HandTailoringBench</li>
     </recipeUsers>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>5</minLevel>
-      </li>
+        <Crafting>5</Crafting>
     </skillRequirements>
     <ingredients>
       <li>
@@ -87,10 +83,7 @@
       <li>HandTailoringBench</li>
     </recipeUsers>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>10</minLevel>
-      </li>
+      <Crafting>10</Crafting>
     </skillRequirements>
     <ingredients>
       <li>
@@ -135,10 +128,7 @@
       <li>HandTailoringBench</li>
     </recipeUsers>
     <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>15</minLevel>
-      </li>
+      <Crafting>15</Crafting>
     </skillRequirements>
     <ingredients>
       <li>
@@ -177,5 +167,4 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
-
-</RecipeDefs>
+</Defs>
