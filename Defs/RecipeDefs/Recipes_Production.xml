@@ -32,6 +32,76 @@
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
+  <RecipeDef>
+    <defName>MakeCloth2</defName>
+    <label>Make Cloth x2</label>
+    <description>Combine cotton thread to make cloth.</description>
+    <jobString>Weaving cotton thread.</jobString>
+    <workAmount>1140</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CottonBoll</li>
+          </thingDefs>
+        </filter>
+        <count>24</count>
+      </li>
+    </ingredients>
+    <products>
+      <Cloth>12</Cloth>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CottonBoll</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeCloth3</defName>
+    <label>Make Cloth x3</label>
+    <description>Combine cotton thread to make cloth.</description>
+    <jobString>Weaving cotton thread.</jobString>
+    <workAmount>2166</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CottonBoll</li>
+          </thingDefs>
+        </filter>
+        <count>36</count>
+      </li>
+    </ingredients>
+    <products>
+      <Cloth>18</Cloth>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CottonBoll</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
 
   <RecipeDef>
     <defName>MakeDevilstrand</defName>
@@ -61,6 +131,76 @@
     </ingredients>
     <products>
       <DevilstrandCloth>4</DevilstrandCloth>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DevilstrandThread</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeDevilstrand2</defName>
+    <label>Make Devilstrand cloth x2</label>
+    <description>Combine Devilstrand fibres to make Devilstrand Cloth.</description>
+    <jobString>Weaving Devilstrand fibres.</jobString>
+    <workAmount>1900</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+    <skillRequirements>
+        <Crafting>8</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DevilstrandThread</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+    <products>
+      <DevilstrandCloth>8</DevilstrandCloth>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DevilstrandThread</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeDevilstrand3</defName>
+    <label>Make Devilstrand cloth x3</label>
+    <description>Combine Devilstrand fibres to make Devilstrand Cloth.</description>
+    <jobString>Weaving Devilstrand fibres.</jobString>
+    <workAmount>2800</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+    <skillRequirements>
+        <Crafting>12</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DevilstrandThread</li>
+          </thingDefs>
+        </filter>
+        <count>18</count>
+      </li>
+    </ingredients>
+    <products>
+      <DevilstrandCloth>12</DevilstrandCloth>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
@@ -104,7 +244,95 @@
       </li>
     </ingredients>
     <products>
-      <Synthread>5</Synthread>
+      <Synthread>10</Synthread>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>DevilstrandCloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeSynthread2</defName>
+    <label>Make Synthread x2</label>
+    <description>Combine Cloth and Devilstrand to create Synthread.</description>
+    <jobString>Weaving Synthread.</jobString>
+    <workAmount>3800</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DevilstrandCloth</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <Synthread>20</Synthread>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>DevilstrandCloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeSynthread3</defName>
+    <label>Make Synthread x3</label>
+    <description>Combine Cloth and Devilstrand to create Synthread.</description>
+    <jobString>Weaving Synthread.</jobString>
+    <workAmount>7220</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>14</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DevilstrandCloth</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <products>
+      <Synthread>30</Synthread>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
@@ -158,6 +386,112 @@
     </ingredients>
     <products>
       <Hyperweave>10</Hyperweave>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Synthread</li>
+        <li>DevilstrandCloth</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeHyperweave2</defName>
+    <label>Make Hyperweave x2</label>
+    <description>Use a secret recipe to create Hyperweave.</description>
+    <jobString>Weaving Hyperweave.</jobString>
+    <workAmount>7600</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>17</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Synthread</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DevilstrandCloth</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <Hyperweave>20</Hyperweave>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Synthread</li>
+        <li>DevilstrandCloth</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeHyperweave3</defName>
+    <label>Make Hyperweave x3</label>
+    <description>Use a secret recipe to create Hyperweave.</description>
+    <jobString>Weaving Hyperweave.</jobString>
+    <workAmount>14440</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>19</Crafting>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Synthread</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DevilstrandCloth</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <products>
+      <Hyperweave>20</Hyperweave>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
