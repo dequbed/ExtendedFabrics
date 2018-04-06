@@ -5,7 +5,7 @@
     <label>Make Cloth</label>
     <description>Combine cotton thread to make cloth.</description>
     <jobString>Weaving cotton thread.</jobString>
-    <workAmount>1000</workAmount>
+    <workAmount>600</workAmount>
     <workSkill>Crafting</workSkill>
     <workSpeedStat>TailoringSpeed</workSpeedStat>
     <soundWorking>Recipe_Tailor</soundWorking>
@@ -38,7 +38,7 @@
     <label>Make Devilstrand cloth</label>
     <description>Combine Devilstrand fibres to make Devilstrand Cloth.</description>
     <jobString>Weaving Devilstrand fibres.</jobString>
-    <workAmount>2200</workAmount>
+    <workAmount>1000</workAmount>
     <workSkill>Crafting</workSkill>
     <workSpeedStat>TailoringSpeed</workSpeedStat>
     <soundWorking>Recipe_Tailor</soundWorking>
@@ -74,7 +74,7 @@
     <label>Make Synthread</label>
     <description>Combine Cloth and Devilstrand to create Synthread.</description>
     <jobString>Weaving Synthread.</jobString>
-    <workAmount>4000</workAmount>
+    <workAmount>2000</workAmount>
     <workSkill>Crafting</workSkill>
     <workSpeedStat>TailoringSpeed</workSpeedStat>
     <soundWorking>Recipe_Tailor</soundWorking>
@@ -119,7 +119,7 @@
     <label>Make Hyperweave</label>
     <description>Use a secret recipe to create Hyperweave.</description>
     <jobString>Weaving Hyperweave.</jobString>
-    <workAmount>10000</workAmount>
+    <workAmount>4000</workAmount>
     <workSkill>Crafting</workSkill>
     <workSpeedStat>TailoringSpeed</workSpeedStat>
     <soundWorking>Recipe_Tailor</soundWorking>
