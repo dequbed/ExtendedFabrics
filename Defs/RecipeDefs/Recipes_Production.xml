@@ -157,7 +157,7 @@
       </li>
     </ingredients>
     <products>
-      <Hyperweave>5</Hyperweave>
+      <Hyperweave>10</Hyperweave>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
